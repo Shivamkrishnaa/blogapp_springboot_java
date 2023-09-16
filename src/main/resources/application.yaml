@@ -1,0 +1,9 @@
+server:
+  port: 8855
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./blogging_app;
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # in prod, use update, NOT create
