@@ -1,5 +1,8 @@
 # Blogging App
 
+## ER Diagram
+![image](https://github.com/Shivamkrishnaa/blogapp_springboot_java/assets/30428839/ba2e59d8-b1ac-405a-80e9-029eb71b97ee)
+
 ## JSON Entities
 
 ### User
