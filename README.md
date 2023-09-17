@@ -32,7 +32,12 @@
 "createdAt": 	"2023-09-14 03:05:22"
 "id": 		1
 }
-
+### Error
+````
+{
+	"message": "User with username: shivam1 not found"
+}
+````
 ## API Endpoint
 
 ### `POST /user`

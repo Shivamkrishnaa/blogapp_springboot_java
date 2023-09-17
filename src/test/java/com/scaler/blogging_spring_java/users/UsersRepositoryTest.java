@@ -19,6 +19,7 @@ public class UsersRepositoryTest {
     void can_create_users(){
         var user = UserEntity.builder()
                 .username("shivam")
+                .password("123")
                 .email("shivamkrishna96@gmail.com")
                 .build();
         usersRepository.save(user);
@@ -29,6 +30,7 @@ public class UsersRepositoryTest {
     void can_find_user(){
         var user = UserEntity.builder()
                 .username("shivam")
+                .password("123")
                 .email("shivamkrishna96@gmail.com")
                 .build();
         usersRepository.save(user);

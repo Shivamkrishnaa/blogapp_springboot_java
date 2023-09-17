@@ -14,12 +14,11 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@Builder
+//@Builder
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(nullable = false)
-    @NonNull
     private Long id;
 
     @Column(nullable = false)
